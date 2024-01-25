@@ -1,13 +1,12 @@
 Many problems have been solved in QuPath via scripting in groovy. The links below are forums or repos containing many example groovy scripts solving common image processing or object manipulation tasks in QuPath.
 
-Manipulating Objects: https://gist.github.com/Svidro/5829ba53f927e79bb6e370a6a6747cfd
-Coding Helper Scripts: https://gist.github.com/Svidro/5e4c29630e8d2ef36988184987d1028f
-Making Measurements: https://gist.github.com/Svidro/68dd668af64ad91b2f76022015dd8a45
-Classification Scripts: https://gist.github.com/Svidro/5b016e192a33c883c0bd20de18eb7764
-Selecting Things: https://gist.github.com/Svidro/8f9c06e2c8bcae214cdd7aa9afe57c50
-Removing Things: https://gist.github.com/Svidro/33558ac3bd9f68a5ec2428f74550831f
-Complex / Other scripts: https://gist.github.com/Svidro/6171d6d24a85539d3af5d417bc928d50
-QuPath Scripting Tools via IDE: https://github.com/arjvik/QuPath-Scripting-Tools
-Groovy scripts internal to Reveal can be found in this repo under: reference_code/qupath_groovy
+Manipulating Objects: (https://gist.github.com/Svidro/5829ba53f927e79bb6e370a6a6747cfd)
+Coding Helper Scripts: (https://gist.github.com/Svidro/5e4c29630e8d2ef36988184987d1028f)
+Making Measurements: (https://gist.github.com/Svidro/68dd668af64ad91b2f76022015dd8a45)
+Classification Scripts: (https://gist.github.com/Svidro/5b016e192a33c883c0bd20de18eb7764)
+Selecting Things: (https://gist.github.com/Svidro/8f9c06e2c8bcae214cdd7aa9afe57c50)
+Removing Things: (https://gist.github.com/Svidro/33558ac3bd9f68a5ec2428f74550831f)
+Complex / Other scripts: (https://gist.github.com/Svidro/6171d6d24a85539d3af5d417bc928d50)
+QuPath Scripting Tools via IDE: (https://github.com/arjvik/QuPath-Scripting-Tools)
 
 Be mindful of the version you are working in compared to the version the solution is designed for!
