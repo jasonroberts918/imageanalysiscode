@@ -1,4 +1,4 @@
-Many problems have been solved in QuPath via scripting in the language groovy. The links below are forums or repos containing many example groovy scripts solving common image processing or object manipulation tasks in QuPath.
+Many problems have been solved in QuPath via scripting in groovy. The links below are forums or repos containing many example groovy scripts solving common image processing or object manipulation tasks in QuPath.
 
 Manipulating Objects: https://gist.github.com/Svidro/5829ba53f927e79bb6e370a6a6747cfd
 Coding Helper Scripts: https://gist.github.com/Svidro/5e4c29630e8d2ef36988184987d1028f
