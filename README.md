@@ -2,7 +2,7 @@
 
 Introduction and Usage
 -----------------------------------------------------------------------------------------------------------------------------------
-The current project is both a repo of code to be used for reference in various softwares and a custom python package designed to handle annotation, detection, and/or shape data exported from QuPath.
+This project is both a repo of code to be used for reference in various image analysis softwares and custom python scripts designed to handle annotation, detection, and/or shape data exported from QuPath.
 
 **Project structure:**
 
