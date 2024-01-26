@@ -13,7 +13,7 @@ The current project is both a repo of code to be used for reference in various s
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # Installation
------------------------------------------------------------------------------------------------------------------------------------
+
 ## **Before install**
 <br /> Ensure github account contains an ssh key to the machine you're working from. Relevant documentation [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
 <br /> Ensure python3.8 installed. Check current version from terminal/powershell/cmd:
