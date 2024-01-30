@@ -1,0 +1,108 @@
+{
+  "object_classifier_type": "OpenCVMLClassifier",
+  "featureExtractor": {
+    "feature_extractor_type": "NormalizedFeatureExtractor",
+    "featureExtractor": {
+      "feature_extractor_type": "DefaultFeatureExtractor",
+      "measurements": [
+        "Subcellular cluster: ISH Dots: Area",
+        "Subcellular cluster: ISH Dots: Mean channel intensity",
+        "ROI: 2.00 µm per pixel: Hematoxylin: Mean",
+        "ROI: 2.00 µm per pixel: BG Stain: Mean"
+      ]
+    },
+    "normalizer": {
+      "offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scales": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "missingValue": 0.0
+    }
+  },
+  "classifier": {
+    "class": "ANN_MLP",
+    "statmodel": {
+      "format": 3,
+      "layer_sizes": [
+        4,
+        2
+      ],
+      "activation_function": "SIGMOID_SYM",
+      "f_param1": 1.0,
+      "f_param2": 1.0,
+      "min_val": -9.4999999999999996e-01,
+      "max_val": 9.4999999999999996e-01,
+      "min_val1": -9.7999999999999998e-01,
+      "max_val1": 9.7999999999999998e-01,
+      "training_params": {
+        "train_method": "RPROP",
+        "dw0": 1.0000000000000001e-01,
+        "dw_plus": 1.2000000000000000e+00,
+        "dw_minus": 5.0000000000000000e-01,
+        "dw_min": 1.1920928955078125e-07,
+        "dw_max": 50.0,
+        "term_criteria": {
+          "epsilon": 1.0000000000000000e-02,
+          "iterations": 1000
+        }
+      },
+      "input_scale": [
+        1.3279750147746978e+00,
+        -1.3147061973109706e+00,
+        2.1625419664300405e+00,
+        -1.0177330402455378e+00,
+        4.8141885187226112e+00,
+        -1.0273943029296231e+00,
+        1.0518006454369862e+01,
+        -8.9799300108273994e-01
+      ],
+      "output_scale": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "inv_output_scale": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "weights": [
+        [
+          7.5562214415590445e-01,
+          -8.3260905160941778e-01,
+          -4.2032179599115294e+00,
+          5.6557557443484034e+00,
+          -3.7222911771717243e-02,
+          1.4610001958027969e+00,
+          -2.9402433923505731e+00,
+          1.8607127206497940e+00,
+          -1.9675191121424178e+00,
+          2.1704538066802961e+00
+        ]
+      ]
+    }
+  },
+  "pathClasses": [
+    {
+      "name": "ISH Positive",
+      "colorRGB": -16744448
+    },
+    {
+      "name": "Negative",
+      "colorRGB": -9408287
+    }
+  ],
+  "requestProbabilityEstimate": false,
+  "filter": "DETECTIONS",
+  "timestamp": 1686078600712
+}

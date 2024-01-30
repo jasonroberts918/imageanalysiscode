@@ -1,0 +1,32 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "FinalDotCount",
+    "pathClassBelow": {
+      "name": "Negative",
+      "colorRGB": -9408287
+    },
+    "pathClassEquals": {
+      "name": "Positive",
+      "colorRGB": -3394765
+    },
+    "pathClassAbove": {
+      "name": "Positive",
+      "colorRGB": -3394765
+    },
+    "threshold": 0.99
+  },
+  "pathClasses": [
+    {
+      "name": "Negative",
+      "colorRGB": -9408287
+    },
+    {
+      "name": "Positive",
+      "colorRGB": -3394765
+    }
+  ],
+  "filter": "CELLS",
+  "timestamp": 1686605351930
+}
