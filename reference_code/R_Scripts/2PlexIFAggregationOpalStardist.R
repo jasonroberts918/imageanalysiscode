@@ -129,8 +129,8 @@ colnames(DataDraft) <- c("Sample",
 
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("22-1124 Univ of Utah Data",f,".csv"), row.names = F)
-write.xlsx(DataDraft, paste("22-1124 Univ of Utah Data Excel",f,".xlsx"))
+write.csv(DataDraft,paste("Data",f,".csv"), row.names = F)
+write.xlsx(DataDraft, paste("Data Excel",f,".xlsx"))
 
 
 
