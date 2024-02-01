@@ -1,7 +1,7 @@
 library("openxlsx")
 library("stringr")
 
-path = "G:\\Studies\\TestQP_proj\\DetCTRLfin\\"
+path = "G:\\Studies\\Study\\DetCTRLfin\\"
 setwd(path)
 
 filelist <- dir(path,pattern = ".txt")
