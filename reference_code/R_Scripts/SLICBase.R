@@ -1,7 +1,7 @@
 
 #Change path here, this is where your data is
-path.det = "C:\\Analysis_Studies\\qp_study\\detection results"
-path.ano = "C:\\Analysis_Studies\\qp_study\\annotation results"
+path.det = "C:\\Analysis_Studies\\Study\\detection results"
+path.ano = "C:\\Analysis_Studies\\Study\\annotation results"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
@@ -65,7 +65,7 @@ colnames(DataDraft) <- c("Sample",
                          "Mean Positive Area DAB Intensity")
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("v2 Data",f,".csv"))
+write.csv(DataDraft,paste("Data",f,".csv"))
 
 
 
