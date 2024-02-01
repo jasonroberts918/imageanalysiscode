@@ -140,7 +140,7 @@ def worker(arg):
 def multi_run_wrapper(args):
    return add(*args)
 #Path to where images are
-path_to_images = r"S:\\Official_Image_Server\\Studies\\19-684 Explora\\"
+path_to_images = r"S:\\Official_Image_Server\\Studies\\Study\\"
 #Path for tiles
 destination_path = r"G:\Studies\Tissue_tiles_2"
 #These are images that are examples of the artifacts you want to exclude
