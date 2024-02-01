@@ -2,8 +2,8 @@ library(openxlsx)
 library(data.table)
 library(stringr)
 #Change path here, this is where your data is
-path.det = "C:\\Analysis_Studies\\Alentis POC QP\\spatial results"
-#path.ano = "C:\\Analysis_Studies\\Alentis POC QP\\annotation results"
+path.det = "C:\\Analysis_Studies\\Study\\spatial results"
+#path.ano = "C:\\Analysis_Studies\\Study\\annotation results"
 
 setwd(path.det)
 
