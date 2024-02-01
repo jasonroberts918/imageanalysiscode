@@ -18,7 +18,6 @@ from py_pipeline.core.pipe import Pipe
 
 class FeatureExtraction(Pipe):
     """
-    TODO:
     Subpipe that extracts both shape and intensity features (in the form of 2-dim matrix where rows
     represent labelled blob and columns represents label and required features of the blob.
 
