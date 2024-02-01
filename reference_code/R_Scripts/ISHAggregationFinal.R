@@ -1,5 +1,5 @@
-path.det = "C://Analysis_Studies//22-1137 BI BaseScope MMP1 QP//detection results"
-path.ano = "C://Analysis_Studies//22-1137 BI BaseScope MMP1 QP//annotation results"
+path.det = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 
 #set working directory
 setwd(path.det)
