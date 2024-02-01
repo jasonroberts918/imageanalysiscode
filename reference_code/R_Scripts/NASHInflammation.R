@@ -1,7 +1,7 @@
 
 ##Change path here, this is where your data is
-path.det = "C://Analysis_Studies//23-690 UNCCH QP Inflammation//detection results"
-path.ano = "C://Analysis_Studies//23-690 UNCCH QP Inflammation//annotation results"
+path.det = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
@@ -65,4 +65,4 @@ colnames(DataDraft) <- c("Filename",
                          
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("23-690 Inflammation Data",f,".csv"))
+write.csv(DataDraft,paste("Inflammation Data",f,".csv"))
