@@ -93,5 +93,5 @@ colnames(DataDraft) <- c("Filename",
 
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("22-1137 MMP1 ISH Data",f,".csv"), row.names = F)
+write.csv(DataDraft,paste("ISH Data",f,".csv"), row.names = F)
 print("DONE!")
