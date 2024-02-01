@@ -1,7 +1,7 @@
 #Change path here, this is where your data is
-path.det = "C://Analysis_Studies//23-159 Grace_DRG_qp//detections_DRG_binned"
-path.ano = "C://Analysis_Studies//23-159 Grace_DRG_qp//annotations_DRG_binned"
-path.hist = "C://Analysis_Studies//23-159 Grace_DRG_qp//histo"
+path.det = "C://Analysis_Studies//Study//detections"
+path.ano = "C://Analysis_Studies//Study//annotations"
+path.hist = "C://Analysis_Studies//Study//histo"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
