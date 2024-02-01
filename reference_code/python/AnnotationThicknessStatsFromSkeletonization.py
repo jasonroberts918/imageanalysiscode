@@ -19,7 +19,7 @@ def calculate_metrics(data):
 
 def main():
     # Read the CSV file
-    file_path = "/Users/revealbio/Downloads/23-739_Thickness/23-739_Thickness_CombinedData.csv"
+    file_path = "path/to/csv"
     data = pd.read_csv(file_path)
 
     # Group data by "filename" and "region" and calculate thickness-related metrics for each group
@@ -40,8 +40,8 @@ def main():
     result_data.insert(1, "Region", grouped_data.index.get_level_values("region"))
 
     # Specify the output directory and file name
-    output_directory = "/Users/revealbio/Downloads/23-739_Thickness"
-    output_file_name = "23-739_Thickness_Data.csv"
+    output_directory = "path/for/output"
+    output_file_name = "filename"
     output_file_path = f"{output_directory}/{output_file_name}"
 
     # Save the results to a new CSV file
