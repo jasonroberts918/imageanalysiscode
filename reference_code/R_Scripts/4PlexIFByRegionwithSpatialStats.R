@@ -8,7 +8,7 @@ path.det = "C:\\Analysis_Studies\\Study\\spatial results"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
-filelist_raw <- dir(path.det,pattern = ".csv") #Need this janky code because QP2 exports the detections files with "Detections" after the .mrxs extension...
+filelist_raw <- dir(path.det,pattern = ".csv") #Need this code because QP2 exports the detections files with "Detections" after the .mrxs extension...
 filelist_int <- strsplit(filelist_raw, " Detections")
 filelist <- unlist(filelist_int)[2*(1:length(filelist_raw))-1]
 
