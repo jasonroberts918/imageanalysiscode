@@ -9,8 +9,8 @@ from pipeline_processor.core.utils import AggregationMode
 from pipeline_processor.operators.io.csv.write import Mode as CsvMode
 from pipeline_processor.utils.type_utils import Number
 
-STARDIST_MODEL_CONFIG = Path("/Users/revealbio/Datasets/LF CD8 Nuc Seg Data Augmentation/LF_CD8_Augmented_Model_Files/config.yaml")
-STARDIST_MODEL_PATH = Path("/Users/revealbio/Datasets/LF CD8 Nuc Seg Data Augmentation/LF_CD8_Augmented_Model_Files/epoch 49 step 25100.ckpt")
+STARDIST_MODEL_CONFIG = Path("/Users/Datasets/Nuc Seg Data Augmentation/Augmented_Model_Files/config.yaml")
+STARDIST_MODEL_PATH = Path("/Users/Datasets/Nuc Seg Data Augmentation/Augmented_Model_Files/epoch 49 step 25100.ckpt")
 REGION_TERMS = ["Parent"]
 NUCLEUS_TERM = "nucleus"
 CLASS_TERMS_TO_CLASS_IDS = {
@@ -22,11 +22,11 @@ DECOMPOSE_BASIS_VECTORS = QP_HDAB
 
 class NuclearSegmentationThreshold(Pipe):
     """
-    Author: Dragana Stojnev <dstojnev@revealbio.com>
-    Author: Stacy Littlechild <slittlechild@revealbio.com>
-    Author: Uros Milivojevic <uros@revealbio.com>
-    Author: Pranav Chhibber <pranav@revealbio.com>
-    Author: Jason Roberts <jroberts@revealbio.com>
+    Author: Dragana Stojnev 
+    Author: Stacy Littlechild 
+    Author: Uros Milivojevic 
+    Author: Pranav Chhibber 
+    Author: Jason Roberts 
     Version: 1.0.0
 
     Performs nuclear segmentation over given slide using the StarDist model.
