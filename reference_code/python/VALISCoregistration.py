@@ -1,9 +1,9 @@
 # Align each image to a reference image and perform micro-registration
 from valis import registration
-slide_src_dir = "/Users/revealbio/Downloads/Images for VALIS Coregistration"
-results_dst_dir = "/Users/revealbio/Downloads/VALIS Coregistered"
-registered_slide_dst_dir = "/Users/revealbio/Downloads/VALIS Coregistered/Slides"
-reference_slide = "MOS764_APD_ML0908178C_20211101A_CD137_1405189_9091.svs"
+slide_src_dir = "/Users/User/Downloads/Images for VALIS Coregistration"
+results_dst_dir = "/Users/User/Downloads/VALIS Coregistered"
+registered_slide_dst_dir = "/Users/User/Downloads/VALIS Coregistered/Slides"
+reference_slide = "image.svs"
 
 # Create a Valis object and use it to register the slides in slide_src_dir, aligning *towards* the reference slide.
 registrar = registration.Valis(slide_src_dir, results_dst_dir, reference_img_f=reference_slide)
