@@ -11,7 +11,7 @@ setwd(path.det)
 #Tells it to look for all .txt files in the path given above
 filelist <- dir(path.det,pattern = ".txt")
 
-#Makes the final summary table with 12 columns with those column headers in order, these can be changed if needed
+#Makes the final summary table with 9 columns with those column headers in order, these can be changed if needed
 DataDraft <- data.frame(matrix(ncol = 9))
 DataDraft2 <- data.frame(matrix(ncol = 9))
 
