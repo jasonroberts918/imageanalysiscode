@@ -73,7 +73,7 @@ colnames(DataDraft) <- c("Filename",
                          "Total Cell Count")
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("22-751 P62 Data",f,".csv"))
+write.csv(DataDraft,paste("Data",f,".csv"))
 
 
 
