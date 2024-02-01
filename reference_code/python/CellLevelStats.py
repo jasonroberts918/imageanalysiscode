@@ -16,11 +16,11 @@ CD8_TERMS = "CD8"
 
 class RegularStatistics(Pipe):
     """
-    Author: Dragana Stojnev <dstojnev@revealbio.com>
-    Author: Masa Jovanovic <masa@revealbio.com>
-    Author: Uros Milivojevic <uros@revealbio.com>
-    Author: Nikola Blagojevic <nikolablagojevic@revealbio.com>
-    Author: Jason Roberts <jroberts@revealbio.com>
+    Author: Dragana Stojnev
+    Author: Masa Jovanovic 
+    Author: Uros Milivojevic 
+    Author: Nikola Blagojevic 
+    Author: Jason Roberts 
     Version: 1.0.0
 
     Pipeline that computes the following statistics for tumor, stroma and invasive margin: area (
