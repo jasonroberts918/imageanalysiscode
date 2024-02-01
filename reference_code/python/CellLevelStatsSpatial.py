@@ -17,9 +17,7 @@ STATISTICS = {
 
 class SpatialStatistics(Pipe):
     """
-    Author: Uroš Milivojević <uros@revealbio.com>
-    Version: 3.0.0
-
+   
     Distances are calculated for each target annotations in relation to the closest source annotation.
     Calculated distances are uploaded as properties for each target annotation and also reduced to
     calculate different statistics for the whole slide. Reduced statistics are uploaded as image
