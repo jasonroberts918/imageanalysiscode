@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Change path here, this is where your data is
-path_det = "/Users/jmortel/Downloads/detection results_cellvnotcell"
-path_ano = "/Users/jmortel/Downloads/annotation results_cellvnotcell"
+path_det = "/Users/user/Downloads/detection results_intensity"
+path_ano = "/Users/user/Downloads/annotation results_intensity"
 os.chdir(path_det)
 
 # Tells it to look for all .txt files in the path given above
