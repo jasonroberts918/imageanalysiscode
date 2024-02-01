@@ -11,8 +11,8 @@ from pipeline_processor.utils.type_utils import Number
 # MASKRCNN_MODEL_PATH = Path("configs/model/panck-cd8-nuc-seg/panck-cd8-2804.ckpt")
 # MASKRCNN_MODEL_CONFIG = Path("configs/model/panck-cd8-nuc-seg/panck-cd8-1024.yaml")
 
-MASKRCNN_MODEL_CONFIG = Path("/Users/revealbio/Downloads/configs_model_maskrcnn_v0.2.yaml")
-MASKRCNN_MODEL_PATH = Path("/Users/revealbio/Downloads/configs_model_cellseg_v0.2.pth")
+MASKRCNN_MODEL_CONFIG = Path("/Users/Downloads/configs_model_maskrcnn_v0.2.yaml")
+MASKRCNN_MODEL_PATH = Path("/Users/Downloads/configs_model_cellseg_v0.2.pth")
 REGION_TERMS = ["Parent"]
 NUCLEUS_TERM = "maskrcnn_test"
 CLASS_TERMS_TO_CLASS_IDS = {
@@ -25,11 +25,11 @@ DECOMPOSE_BASIS_VECTORS = QP_HDAB
 
 class NuclearSegmentationThreshold(Pipe):
     """
-    Author: Dragana Stojnev <dstojnev@revealbio.com>
-    Author: Stacy Littlechild <slittlechild@revealbio.com>
-    Author: Uros Milivojevic <uros@revealbio.com>
-    Author: Pranav Chhibber <pranav@revealbio.com>
-    Author: Jason Roberts <jroberts@revealbio.com>
+    Author: Dragana Stojnev 
+    Author: Stacy Littlechild 
+    Author: Uros Milivojevic 
+    Author: Pranav Chhibber 
+    Author: Jason Roberts 
     Version: 1.0.0
 
     Performs nuclear segmentation over given slide using the MASKRCNN model.
