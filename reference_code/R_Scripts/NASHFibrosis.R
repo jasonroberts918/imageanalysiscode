@@ -20,7 +20,7 @@ for(f in 1:length(filelist)){
   
   #This line reads the .txt file and places it into a table we can look at
   Read.Data <- read.table(filelist[f], header=T, sep="\t", fill = TRUE)
-  Positive <- subset(Read.Data, Read.Data$Class == "Immune cells")
+  Positive <- subset(Read.Data, Read.Data$Class == "Positive")
   DataDraft[k,1] <- filelist[f]
   DataDraft[k,2] <- sum(Positive$ROI.Shape..Area.�m.2)/1000000
 
