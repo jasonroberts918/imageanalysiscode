@@ -3,8 +3,8 @@ library(data.table)
 library(stringr)
 
 #Change path here, this is where your data is
-path.det = "C://Analysis_Studies//21-841 Ribon Polaris_qp//detection results_lung_6.30.22"
-path.ano = "C://Analysis_Studies//21-841 Ribon Polaris_qp//annotation results_lung_6.30.22"
+path.det = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 
 setwd(path.det)
 
