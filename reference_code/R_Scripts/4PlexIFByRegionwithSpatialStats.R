@@ -325,8 +325,8 @@ colnames(DataDraft) <- c("Sample",
 
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("Round 1 Spatial Data",f,".csv"), row.names = F)
-#write.xlsx(DataDraft, paste("IF Data Excel",f,".xlsx")) #excel files make for easier formatting
+write.csv(DataDraft,paste("Spatial Data",f,".csv"), row.names = F)
+#write.xlsx(DataDraft, paste("Spatial Data Excel",f,".xlsx")) #excel files make for easier formatting
 
 print(paste("DONE! csv written to", getwd()))
 
