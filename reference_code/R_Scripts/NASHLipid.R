@@ -1,5 +1,5 @@
-path.det="D://23-690 UNCCH_Steatosis_qp//detection results"
-path.ano = "D://23-690 UNCCH_Steatosis_qp//annotation results"
+path.det="C://Study//detection results"
+path.ano = "C://Study//annotation results"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
@@ -60,4 +60,4 @@ colnames(DataDraft) <- c(
 )
 
 # Write the CSV file
-write.csv(DataDraft, paste("Data", f, ".csv"))
+write.csv(DataDraft, paste("Lipid Data", f, ".csv"))
