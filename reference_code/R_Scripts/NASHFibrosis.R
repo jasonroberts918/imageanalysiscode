@@ -1,6 +1,6 @@
 
 #Change path here, this is where your data is
-path ="G:\\Studies\\stanford\\mtc\\"
+path ="G:\\Studies\\Study\\annotation_results"
 setwd(path)
 
 #Tells it to look for all .txt files in the path given above
@@ -33,7 +33,7 @@ for(f in 1:length(filelist)){
 colnames(DataDraft) <- c("Sample", "Negative Stain Area (mm^2)", "Positive Stain Area (mm^2)", "Positive Area from Detection (mm^2)")
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("Pos Pix Det Data",f,".csv"))
+write.csv(DataDraft,paste("Fibrosis Data",f,".csv"))
 
 
 
