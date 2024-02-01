@@ -1,8 +1,8 @@
 library(plyr)
 library(openxlsx)
 library(ggplot2)
-path = "C://Analysis_Studies//22-903 Loyal WGA QP//detection results"
-path.ano = "C://Analysis_Studies//22-903 Loyal WGA QP//annotation results"
+path = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 stainName = "WGA"
 setwd(path.ano)
 filelistAno <- sort(dir(path.ano,pattern = ".txt"))
@@ -55,5 +55,5 @@ colnames(DataDraft) <- c("Sample",
                          paste("Myocyte Area: Median"),
                          paste("Myocyte Area: 75th Percentile"),
                          paste("Myocyte Area: 90th Percentile"))
-write.csv(DataDraft,paste(stainName, "22-903 Data",f,".csv"), row.names = F)
-write.xlsx(DataDraft,paste(stainName, "22-903 Data",f,".xlsx"))
+write.csv(DataDraft,paste(stainName, "Data",f,".csv"), row.names = F)
+write.xlsx(DataDraft,paste(stainName, "Data",f,".xlsx"))
