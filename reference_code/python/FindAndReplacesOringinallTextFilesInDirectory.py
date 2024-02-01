@@ -5,7 +5,7 @@ import fnmatch
 import os
 
 #root directory where subdirectories/files are located
-root_directory = r"C:\Analysis_Studies\22-187 Ribon_qp\annotation results_skin"
+root_directory = r"C:\Analysis_Studies\study\results"
 
 #find and replace string in each text file in root directory
 for root, dirnames, filenames in os.walk(root_directory):
