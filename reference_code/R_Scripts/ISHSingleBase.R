@@ -2,8 +2,8 @@
 
 #Change path here, this is where your data is
 #Path needs to have double backslashes 
-path.det = "C:\\Analysis_Studies\\StudyName\\detection results\\"
-path.ano = "C:\\Analysis_Studies\\StudyName\\annotation results\\"
+path.det = "C:\\Analysis_Studies\\Study\\detection results\\"
+path.ano = "C:\\Analysis_Studies\\Study\\annotation results\\"
 
 #set working directory
 setwd(path.det)
