@@ -1,6 +1,5 @@
 '''
 
-Inception project
 Combine single channel fluorescence tiff images
 Output a pyramidal jpg that can be opened by QuPath for cell segmentation
 Channel order is RGB or Cy5-TRITC-DAPI
@@ -66,7 +65,7 @@ dtype_to_format = {
 
 
 #Path where your tiff files and subdirectories are
-path = r"K:\20-318 Kallyope\TIFF Stacks"
+path = r"C:\Study\TIFF Stacks"
 
 os.chdir(path)
 
@@ -83,7 +82,7 @@ for fol in folders:
 folders = ls
 print(len(ls))
 #A Path for all your final .tif files to go, doesn't really matter where it is, just that it's there
-path_pyramids = r"K:\20-318 Kallyope\DFC"
+path_pyramids = r"path/to/pyramids"
 pyramids = os.listdir(path_pyramids)
 pyramids = [x.split('_Wholeslide')[0] for x in pyramids]
 folders_left = []
