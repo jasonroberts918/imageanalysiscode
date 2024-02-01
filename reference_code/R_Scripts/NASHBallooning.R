@@ -1,13 +1,13 @@
 
 ##Change path here, this is where your data is
-path.det = "C://Analysis_Studies//23-690 UNCCH QP Ballooning//detection results"
-path.ano = "C://Analysis_Studies//23-690 UNCCH QP Ballooning//annotation results"
+path.det = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
 filelist <- dir(path.det,pattern = ".txt")
 
-#Makes the final summary table with 12 columns with those column headers in order, these can be changed if needed
+#Makes the final summary table with 3 columns with those column headers in order, these can be changed if needed
 DataDraft <- data.frame(matrix(ncol = 3))
 
 #This is a counter, set it equal to 1 outside of the for loop, within the for loop we increase it (k = k + 1) 
