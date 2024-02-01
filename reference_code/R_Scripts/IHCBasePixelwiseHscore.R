@@ -1,6 +1,6 @@
 #Change path here, this is where your data is
-path.det = "C://Analysis_Studies//22-365 Boudless QP//detection results"
-path.ano = "C://Analysis_Studies//22-365 Boudless QP//annotation results"
+path.det = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 setwd(path.det)
 
 #Tells it to look for all .txt files in the path given above
