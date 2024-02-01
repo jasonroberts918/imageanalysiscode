@@ -67,5 +67,5 @@ colnames(DataDraft) <- c("Filename",
                          "Negative Area Percentage (%)",
                          "Total Area Analyzed (mm^2)")
 
-write.csv(DataDraft,paste("Fibrosis Data",f,".csv"), row.names = FALSE)
+write.csv(DataDraft,paste("Data",f,".csv"), row.names = FALSE)
 
