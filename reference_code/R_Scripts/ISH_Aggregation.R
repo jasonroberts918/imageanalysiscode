@@ -1,5 +1,5 @@
-path.det = "C://Analysis_Studies//22-1137 BI BaseScope MDFI QP//detection results"
-path.ano = "C://Analysis_Studies//22-1137 BI BaseScope MDFI QP//annotation results"
+path.det = "C://Analysis_Studies//Study//detection results"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 
 #set working directory
 setwd(path.det)
@@ -7,7 +7,7 @@ setwd(path.det)
 #Tells it to look for all .txt files in the path given above
 filelist <- dir(path.det,pattern = ".txt")
 
-#Makes the final summary table with 12 columns with those column headers in order, these can be changed if needed
+#Makes the final summary table with 9 columns with those column headers in order, these can be changed if needed
 DataDraft <- data.frame(matrix(ncol = 9))
 
 
