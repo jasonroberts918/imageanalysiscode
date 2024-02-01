@@ -162,7 +162,7 @@ colnames(DataDraft) <- c("Sample",
 
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("IF Data",f,".csv"), row.names = F)
-write.xlsx(DataDraft, paste("IF Data Excel",f,".xlsx")) #excel files make for easier formatting
+write.csv(DataDraft,paste("Data",f,".csv"), row.names = F)
+write.xlsx(DataDraft, paste("Data Excel",f,".xlsx")) #excel files make for easier formatting
 
 print(paste("DONE! csv written to", getwd())) 
