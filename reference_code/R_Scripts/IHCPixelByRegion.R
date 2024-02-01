@@ -7,7 +7,7 @@
 #Then run the export
 #Repeat for each slide 
 
-path.ano = "C://Analysis_Studies//24-106 Ventoux Bio//24-106 Ventoux QP//annotation results_fibrosis"
+path.ano = "C://Analysis_Studies//Study//annotation results"
 
 setwd(path.ano)
 #Tells it to look for all .txt files in the path given above
