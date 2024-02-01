@@ -2,8 +2,8 @@
 library(scales)
 
  #Change path here, this is where your data is
-path.det = "G:\\Studies\\18-569 Bluestar\\det\\"
-path.ano = "G:\\Studies\\18-569 Bluestar\\ano\\"
+path.det = "C:\\Studies\\Study\\det\\"
+path.ano = "C:\\Studies\\Study\\ano\\"
 
 setwd(path.ano)
 filelistano <- sort(dir(path.ano,pattern = ".txt"))
@@ -99,4 +99,4 @@ colnames(DataDraft) <- c("Sample",
                           )
 
 
-write.csv(DataDraft,paste("FinalData2",k,".csv",row.names=FALSE))
+write.csv(DataDraft,paste("Data",k,".csv",row.names=FALSE))
