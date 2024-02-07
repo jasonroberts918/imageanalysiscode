@@ -10,9 +10,9 @@ from py_pipeline.core import Pipe, special_params
 from py_pipeline.data import QP_HDAB, Path
 
 # Image and mask
-SLIDE = "slides/JS20-7951_B1_Ki67_MIB_211006-2045_icc_3153.tiff"
-PROJECT_ID = 221871260
-IMAGE_ID = 241643153
+SLIDE = "slides/slide"
+PROJECT_ID = 111
+IMAGE_ID = 111
 TERM = "tissue"
 NUCLEUS = "cell"
 TILE_SIZE = 544
@@ -88,17 +88,7 @@ def user_input_unary(args):
 
 
 class NuclearSegmentationExample(Pipe):
-    """
-    Author: Uroš Milivojević <uros@revealbio.com>
-    Version: 1.0.0
 
-    Simple demo pipeline showcasing nuclear segmentation and
-    upload of annotations and properties to imageDx.
-
-    :var slide_path: Path to the WSI image.
-    :var project_id: ID of the project on imageDx.
-    :var image_id: ID of the image on imageDx.
-    """
 
     def __init__(self):
         super().__init__()
