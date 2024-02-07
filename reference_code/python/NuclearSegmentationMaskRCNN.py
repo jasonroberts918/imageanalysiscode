@@ -25,15 +25,17 @@ DECOMPOSE_BASIS_VECTORS = QP_HDAB
 
 class NuclearSegmentationThreshold(Pipe):
 
-    Performs nuclear segmentation over given slide using the MASKRCNN model.
+    """
+    Performs nuclear segmentation over given slide using the StarDist model.
     Nuclei are filtered and a RandomForest classifier is applied to upload
     only CD8 positive cells to imageDx.
 
     :var slide_path: Path to the WSI file.
     :var project_id: ID of a study on imageDx.
     :var image_id: ID of an image from the imageDx study specified by the `project_id`.
-    :var MASKRCNN_model_path: Path to the MASKRCNN model.
-    :var MASKRCNN_model_config: Path to MASKRCNN config file.
+    :var stardist_model_path: Path to the StarDist model.
+    :var stardist_model_config: Path to StarDist config file.
+    """
 
     def __init__(self):
         super().__init__()
