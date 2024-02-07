@@ -34,7 +34,6 @@ class NuclearSegmentationThreshold(Pipe):
     :var image_id: ID of an image from the imageDx study specified by the `project_id`.
     :var MASKRCNN_model_path: Path to the MASKRCNN model.
     :var MASKRCNN_model_config: Path to MASKRCNN config file.
-    """
 
     def __init__(self):
         super().__init__()
