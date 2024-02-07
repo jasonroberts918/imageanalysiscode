@@ -11,8 +11,8 @@ from pipeline_processor.utils.type_utils import Number
 # MASKRCNN_MODEL_PATH = Path("configs/model/panck-cd8-nuc-seg/panck-cd8-2804.ckpt")
 # MASKRCNN_MODEL_CONFIG = Path("configs/model/panck-cd8-nuc-seg/panck-cd8-1024.yaml")
 
-MASKRCNN_MODEL_CONFIG = Path("/Users/Downloads/configs_model_maskrcnn_v0.2.yaml")
-MASKRCNN_MODEL_PATH = Path("/Users/Downloads/configs_model_cellseg_v0.2.pth")
+MASKRCNN_MODEL_CONFIG = Path("path")
+MASKRCNN_MODEL_PATH = Path("path")
 REGION_TERMS = ["Parent"]
 NUCLEUS_TERM = "maskrcnn_test"
 CLASS_TERMS_TO_CLASS_IDS = {
