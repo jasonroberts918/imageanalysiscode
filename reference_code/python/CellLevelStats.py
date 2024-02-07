@@ -15,13 +15,6 @@ CD8_TERMS = "CD8"
 
 
 class RegularStatistics(Pipe):
-    """
-    Author: Dragana Stojnev
-    Author: Masa Jovanovic 
-    Author: Uros Milivojevic 
-    Author: Nikola Blagojevic 
-    Author: Jason Roberts 
-    Version: 1.0.0
 
     Pipeline that computes the following statistics for tumor, stroma and invasive margin: area (
     μm^2), CD8+ nuclei area (μm^2), CD8+ nuclei count, CD8+ nuclei % area (%), and CD8+ nuclei
