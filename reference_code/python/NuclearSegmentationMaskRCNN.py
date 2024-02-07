@@ -24,13 +24,6 @@ TRAINING_CLASS_TERMS = list(CLASS_TERMS_TO_CLASS_IDS.keys())
 DECOMPOSE_BASIS_VECTORS = QP_HDAB
 
 class NuclearSegmentationThreshold(Pipe):
-    """
-    Author: Dragana Stojnev 
-    Author: Stacy Littlechild 
-    Author: Uros Milivojevic 
-    Author: Pranav Chhibber 
-    Author: Jason Roberts 
-    Version: 1.0.0
 
     Performs nuclear segmentation over given slide using the MASKRCNN model.
     Nuclei are filtered and a RandomForest classifier is applied to upload
