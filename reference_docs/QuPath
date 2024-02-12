@@ -8,5 +8,6 @@ Selecting Things: (https://gist.github.com/Svidro/8f9c06e2c8bcae214cdd7aa9afe57c
 Removing Things: (https://gist.github.com/Svidro/33558ac3bd9f68a5ec2428f74550831f)
 Complex / Other scripts: (https://gist.github.com/Svidro/6171d6d24a85539d3af5d417bc928d50)
 QuPath Scripting Tools via IDE: (https://github.com/arjvik/QuPath-Scripting-Tools)
+QuPath Alignment of Serial Images: (https://github.com/MarkZaidi/QuASI)
 
 Be mindful of the version you are working in compared to the version the solution is designed for!
