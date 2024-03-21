@@ -23,8 +23,7 @@ DECOMPOSE_BASIS_VECTORS = QP_HDAB
 class NuclearSegmentationThreshold(Pipe):
     """
     Performs nuclear segmentation over given slide using the StarDist model.
-    Nuclei are filtered and a RandomForest classifier is applied to upload
-    only CD8 positive cells to imageDx.
+    Nuclei are filtered and a RandomForest classifier is applied to assess biomarker positivity.
 
     :var slide_path: Path to the WSI file.
     :var project_id: ID of a study on imageDx.
