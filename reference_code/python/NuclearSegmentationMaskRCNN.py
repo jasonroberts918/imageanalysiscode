@@ -8,8 +8,8 @@ from typing import List, Union
 from pipeline_processor.core.utils import AggregationMode
 from pipeline_processor.operators.io.csv.write import Mode as CsvMode
 from pipeline_processor.utils.type_utils import Number
-# MASKRCNN_MODEL_PATH = Path("configs/model/panck-cd8-nuc-seg/panck-cd8-2804.ckpt")
-# MASKRCNN_MODEL_CONFIG = Path("configs/model/panck-cd8-nuc-seg/panck-cd8-1024.yaml")
+# MASKRCNN_MODEL_PATH = Path("configs/model/path")
+# MASKRCNN_MODEL_CONFIG = Path("configs/model/config")
 
 MASKRCNN_MODEL_CONFIG = Path("path")
 MASKRCNN_MODEL_PATH = Path("path")
@@ -19,7 +19,7 @@ CLASS_TERMS_TO_CLASS_IDS = {
     "maskrcnn_test": 1,
     "positive": 2,
 }
-#FEATURES_PATH = Path("C:/Users/Pranav/Documents/features/features01.csv")
+#FEATURES_PATH = Path("C:/Users/Documents/features/features01.csv")
 TRAINING_CLASS_TERMS = list(CLASS_TERMS_TO_CLASS_IDS.keys())
 DECOMPOSE_BASIS_VECTORS = QP_HDAB
 
