@@ -1,5 +1,5 @@
-path.det = "C://Analysis_Studies//23-509_TMA_TA4398_QP//detection results"
-path.ano = "C://Analysis_Studies//23-509_TMA_TA4398_QP//annotation results"
+path.det = "C://Analysis_Studies//TMA_ISH//detection results"
+path.ano = "C://Analysis_Studies//TMA_ISH//annotation results"
 
 #set working directory
 setwd(path.det)
@@ -102,5 +102,5 @@ colnames(DataDraft) <- c("Filename",
 
 
 #Writes a csv file with the data in the path
-write.csv(DataDraft,paste("23-509 TMA TA4398 Data",f,".csv"), row.names = F)
+write.csv(DataDraft,paste("TMA ISH Data",f,".csv"), row.names = F)
 print("DONE!")
