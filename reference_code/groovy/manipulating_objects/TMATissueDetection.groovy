@@ -1,0 +1,1 @@
+runPlugin('qupath.imagej.detect.tissue.SimpleTissueDetection2', '{"threshold": 254,  "requestedPixelSizeMicrons": 35.0,  "minAreaMicrons": 1000000.0,  "maxHoleAreaMicrons": 1000000.0,  "darkBackground": false,  "smoothImage": true,  "medianCleanup": true,  "dilateBoundaries": false,  "smoothCoordinates": true,  "excludeOnBoundary": false,  "singleAnnotation": false}');
