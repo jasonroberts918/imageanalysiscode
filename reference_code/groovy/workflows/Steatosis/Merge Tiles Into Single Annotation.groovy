@@ -1,0 +1,2 @@
+selectAnnotations();
+mergeSelectedAnnotations()
