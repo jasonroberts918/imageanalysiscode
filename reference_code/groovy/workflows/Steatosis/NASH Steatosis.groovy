@@ -12,13 +12,7 @@ import qupath.lib.scripting.QP
 
 
 selectAnnotations();
-runPlugin('qupath.lib.algorithms.TilerPlugin', '{"tileSizeMicrons": 1000.0,  "trimToROI": true,  "makeAnnotations": true,  "removeParentAnnotation": false}');
-runPlugin('qupath.lib.plugins.objects.SplitAnnotationsPlugin', '{}');
-resetSelection();
-
-
-selectAnnotations();
-runPlugin('qupath.lib.algorithms.TilerPlugin', '{"tileSizeMicrons": 1000.0,  "trimToROI": true,  "makeAnnotations": true,  "removeParentAnnotation": true}');
+//runPlugin('qupath.lib.algorithms.TilerPlugin', '{"tileSizeMicrons": 1000.0,  "trimToROI": true,  "makeAnnotations": true,  "removeParentAnnotation": false}');
 runPlugin('qupath.lib.plugins.objects.SplitAnnotationsPlugin', '{}');
 resetSelection();
 
@@ -62,7 +56,7 @@ run("Dilate");
 run("Close-");
 run("Watershed");
 
-run("Analyze Particles...", "size=0-4000 show=[Overlay Masks] add");
+run("Analyze Particles...", "size=0-8000 show=[Overlay Masks] add");
 '''
 
 //Actual run part of this script
