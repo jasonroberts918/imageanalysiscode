@@ -48,7 +48,7 @@ def plot_barchart(data, x_col, y_col):
 def plot_grouped_boxplot(data, x_col, y_col):
     plt.figure(figsize=(10, 6))
     sns.boxplot(x=x_col, y=y_col, data=data, palette=custom_colors)
-    plt.title(f'Grouped Box Plot of {y_col} by {x_col}', color='#000000')
+    plt.title(f'{y_col} by {x_col}', color='#000000')
     plt.xlabel(x_col, color='#000000')
     plt.ylabel(y_col, color='#000000')
     plt.xticks(rotation=45)
