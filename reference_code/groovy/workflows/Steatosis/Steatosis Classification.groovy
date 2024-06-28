@@ -1,2 +1,2 @@
 resetDetectionClassifications();
-runObjectClassifier("22-214 Steatosis Classifier V2");
+runObjectClassifier("Steatosis_Classifier_V2");
