@@ -8,7 +8,7 @@ import seaborn as sns
 import numpy as np
 from sklearn import manifold
 
-data_path = "/home/user/dev/QC/GFAP/QC detection results - by cell"
+data_path = "/QC/Study/QC detection results - by cell"
 category_name = "Sample"
 feature = 'ROI: 1.00 µm per pixel: Blue: Median'
 plot_title = 'Distribution of Signal Intensity'
