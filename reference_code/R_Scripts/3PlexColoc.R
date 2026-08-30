@@ -19,7 +19,7 @@ filelist <- dir(path.det,pattern = ".txt")
 DataDraft <- data.frame(matrix(ncol = 12))
 
 #Qupath colors (may not match native image colors)
-QPRed = "PARP14" #QP Red
+QPRed = "CD8" #QP Red
 QPGreen = "CD3" #QP Green
 QPYellow = "CD68" #QP Yellow
 
