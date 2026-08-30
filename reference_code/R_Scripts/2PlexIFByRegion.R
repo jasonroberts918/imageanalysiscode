@@ -1,7 +1,7 @@
 library("openxlsx")
 library("stringr")
 
-path = "G:\\Studies\\Study\\DetCTRLfin\\"
+path = "\\Studies\\Study\\Results\\"
 setwd(path)
 
 filelist <- dir(path,pattern = ".txt")
@@ -9,7 +9,7 @@ filelist <- dir(path,pattern = ".txt")
 
 DataDraft <- data.frame(matrix(ncol=19))
 
-Marker1 = 'CCL24' #QP Green Pos
+Marker1 = 'CD3' #QP Green Pos
 Marker2 = 'CD68' #QP Red Pos
 colnames(DataDraft) <- c("Core", 
                          
@@ -90,4 +90,4 @@ for(f in 1:length(filelist)){
   k = k + 1
   print(filelist[f])
 }
-write.csv(DataDraft,paste("Final_Regional_Data",k,".csv"), row.names=FALSE)
+write.csv(DataDraft,paste("Final_Data",k,".csv"), row.names=FALSE)
