@@ -147,7 +147,7 @@ class HeatmapMaker(object):
 
 #Load example data and convert to long form
 
-root_dir = r"/home/user/Documents/study/CD3"
+root_dir = r"/Documents/study/CD3"
 manual_thresh = 13000
 
 print(os.listdir(root_dir))
